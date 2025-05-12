@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            color: white;
+            text-align: center;
+            background-image: url("bakground.jpg");
+        }
+        li{
+            color: rgb(255, 255, 255);
+            display: inline-block;
+            margin-right: 15px;
+        }
+        li:hover{
+            color: rgba(8, 161, 207, 0.5);
+        }
+        .Biodata{
+            float: left;
+        }
+        .menukanan{
+            float: right;
+        }
+        .clear{
+            clear: both;
+        }
+        .button{
+            display: inline-block;
+            width: 100px;
+            padding: 8px;
+            background-image: linear-gradient(red,green);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 5px 5px purple;
+        }
+        table{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="Biodata">
+            <a href="index.html"><li>Biodata</li></a> 
+        </ul>
+        <ul class="menukanan">
+            <a href="index.html"><li>Home</li></a>
+            <a href="jadwal.html"><li>Jadwal</li></a>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <table border="1" cellspacing="0"width="50%">
+        <thead>
+            <tr>
+                <th colspan="6">Jadwal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>SENIN</th>
+                <td>ADSI</td>
+                <td>AI</td>
+                <td>TI</td>
+                <td>AI RESPOSNSI</td>
+            </tr>
+            <tr>
+                <th>SELASA</th>
+                <td>PDT</td>
+                <td>PEMDEK</td>
+                <td>PEMDEK RESPOSNSI</td>
+                <TD>ML</TD>
+                <td>TAM RESPOSNSI</td>
+            </tr>
+            <tr>
+                <th>RABU</th>
+                <td>PEMWEB</td>
+                <td colspan="4">TAM</td>
+            </tr>
+            <tr>
+                <th>KAMIS</th>
+                <td colspan="2">pemweb</td>
+                <td>ADSI</td>
+                <td colspan="2">PDT RESPOSNSI</td>
+            </tr>
+            <tr>
+                <th>jumat</th>
+                <td colspan="5">ML RESPOSNSI</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
